@@ -1,12 +1,9 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import AnimatedHorzList from './src/modules/horzList/AnimatedHorzList';
 
 const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  );
+  return <AnimatedHorzList />;
 };
 
 export default App;
